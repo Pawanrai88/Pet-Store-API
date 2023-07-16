@@ -1,0 +1,624 @@
+INFO    2023-07-15 17:15:40,010 [main] api.test.UserTest  - ****** Creating User*******
+DEBUG   2023-07-15 17:15:41,801 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:41,894 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:42,484 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2023-07-15 17:15:42,490 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2023-07-15 17:15:42,490 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /v2/user HTTP/1.1
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.wire  -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.wire  -  >> "Accept: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.wire  -  >> "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.wire  -  >> "Content-Length: 193[\r][\n]"
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.wire  -  >> "Host: petstore.swagger.io[\r][\n]"
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.headers  - >> POST /v2/user HTTP/1.1
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.headers  - >> Accept: application/json
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.headers  - >> Content-Type: application/json
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.headers  - >> Content-Length: 193
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.headers  - >> Host: petstore.swagger.io
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2023-07-15 17:15:42,491 [main] org.apache.http.wire  -  >> "{"id":1261198850,"username":"ernesto.roberts","firstName":"Tyrell","lastName":"Rippin","email":"marlana.skiles@hotmail.com","password":"y10csjggov","phone":"762-308-2755 x01135","userStatus":1}"
+DEBUG   2023-07-15 17:15:42,580 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2023-07-15 17:15:42,582 [main] org.apache.http.wire  -  << "Date: Sun, 16 Jul 2023 00:15:40 GMT[\r][\n]"
+DEBUG   2023-07-15 17:15:42,582 [main] org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:42,582 [main] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG   2023-07-15 17:15:42,582 [main] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+DEBUG   2023-07-15 17:15:42,582 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2023-07-15 17:15:42,582 [main] org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+DEBUG   2023-07-15 17:15:42,582 [main] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+DEBUG   2023-07-15 17:15:42,582 [main] org.apache.http.wire  -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+DEBUG   2023-07-15 17:15:42,582 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:42,583 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:42,583 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:42,583 [main] org.apache.http.headers  - << Date: Sun, 16 Jul 2023 00:15:40 GMT
+DEBUG   2023-07-15 17:15:42,583 [main] org.apache.http.headers  - << Content-Type: application/json
+DEBUG   2023-07-15 17:15:42,583 [main] org.apache.http.headers  - << Transfer-Encoding: chunked
+DEBUG   2023-07-15 17:15:42,583 [main] org.apache.http.headers  - << Connection: keep-alive
+DEBUG   2023-07-15 17:15:42,583 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2023-07-15 17:15:42,583 [main] org.apache.http.headers  - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DEBUG   2023-07-15 17:15:42,583 [main] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+DEBUG   2023-07-15 17:15:42,583 [main] org.apache.http.headers  - << Server: Jetty(9.2.9.v20150224)
+DEBUG   2023-07-15 17:15:42,587 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2023-07-15 17:15:42,591 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json
+DEBUG   2023-07-15 17:15:42,591 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2023-07-15 17:15:42,629 [main] org.apache.http.wire  -  << "34[\r][\n]"
+DEBUG   2023-07-15 17:15:42,629 [main] org.apache.http.wire  -  << "{"code":200,"type":"unknown","message":"1261198850"}"
+DEBUG   2023-07-15 17:15:42,630 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:42,630 [main] org.apache.http.wire  -  << "0[\r][\n]"
+DEBUG   2023-07-15 17:15:42,630 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:42,630 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@413eaf5d
+DEBUG   2023-07-15 17:15:42,630 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+INFO    2023-07-15 17:15:42,662 [main] api.test.UserTest  - ******User is created*******
+INFO    2023-07-15 17:15:42,679 [main] api.test.UserTest  - ******Retrive the data for created user*******
+DEBUG   2023-07-15 17:15:42,717 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:42,717 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:43,071 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2023-07-15 17:15:43,071 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2023-07-15 17:15:43,071 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:43,071 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:43,071 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2023-07-15 17:15:43,071 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /v2/user/ernesto.roberts HTTP/1.1
+DEBUG   2023-07-15 17:15:43,071 [main] org.apache.http.wire  -  >> "GET /v2/user/ernesto.roberts HTTP/1.1[\r][\n]"
+DEBUG   2023-07-15 17:15:43,071 [main] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+DEBUG   2023-07-15 17:15:43,071 [main] org.apache.http.wire  -  >> "Host: petstore.swagger.io[\r][\n]"
+DEBUG   2023-07-15 17:15:43,071 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2023-07-15 17:15:43,072 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+DEBUG   2023-07-15 17:15:43,072 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2023-07-15 17:15:43,072 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2023-07-15 17:15:43,072 [main] org.apache.http.headers  - >> GET /v2/user/ernesto.roberts HTTP/1.1
+DEBUG   2023-07-15 17:15:43,072 [main] org.apache.http.headers  - >> Accept: */*
+DEBUG   2023-07-15 17:15:43,072 [main] org.apache.http.headers  - >> Host: petstore.swagger.io
+DEBUG   2023-07-15 17:15:43,072 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2023-07-15 17:15:43,072 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+DEBUG   2023-07-15 17:15:43,072 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2023-07-15 17:15:43,159 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2023-07-15 17:15:43,159 [main] org.apache.http.wire  -  << "Date: Sun, 16 Jul 2023 00:15:40 GMT[\r][\n]"
+DEBUG   2023-07-15 17:15:43,159 [main] org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:43,159 [main] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.headers  - << Date: Sun, 16 Jul 2023 00:15:40 GMT
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.headers  - << Content-Type: application/json
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.headers  - << Transfer-Encoding: chunked
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.headers  - << Connection: keep-alive
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.headers  - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.headers  - << Server: Jetty(9.2.9.v20150224)
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2023-07-15 17:15:43,160 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json
+DEBUG   2023-07-15 17:15:43,160 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "c1[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "{"id":1261198850,"username":"ernesto.roberts","firstName":"Tyrell","lastName":"Rippin","email":"marlana.skiles@hotmail.com","password":"y10csjggov","phone":"762-308-2755 x01135","userStatus":1}"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "0[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@a240452
+DEBUG   2023-07-15 17:15:43,160 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+INFO    2023-07-15 17:15:44,040 [main] api.test.UserTest  - ******Data is retireved ******
+INFO    2023-07-15 17:15:44,041 [main] api.test.UserTest  - ******Updating user First name, Last name and Email*******
+DEBUG   2023-07-15 17:15:44,063 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:44,063 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: PUT /v2/user/ernesto.roberts HTTP/1.1
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.wire  -  >> "PUT /v2/user/ernesto.roberts HTTP/1.1[\r][\n]"
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.wire  -  >> "Accept: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.wire  -  >> "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.wire  -  >> "Content-Length: 196[\r][\n]"
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.wire  -  >> "Host: petstore.swagger.io[\r][\n]"
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.headers  - >> PUT /v2/user/ernesto.roberts HTTP/1.1
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.headers  - >> Accept: application/json
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.headers  - >> Content-Type: application/json
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.headers  - >> Content-Length: 196
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.headers  - >> Host: petstore.swagger.io
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2023-07-15 17:15:44,421 [main] org.apache.http.wire  -  >> "{"id":1261198850,"username":"ernesto.roberts","firstName":"Dianne","lastName":"Konopelski","email":"shannon.denesik@gmail.com","password":"y10csjggov","phone":"762-308-2755 x01135","userStatus":1}"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "Date: Sun, 16 Jul 2023 00:15:42 GMT[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.headers  - << Date: Sun, 16 Jul 2023 00:15:42 GMT
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.headers  - << Content-Type: application/json
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.headers  - << Transfer-Encoding: chunked
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.headers  - << Connection: keep-alive
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.headers  - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.headers  - << Server: Jetty(9.2.9.v20150224)
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2023-07-15 17:15:44,510 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json
+DEBUG   2023-07-15 17:15:44,510 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "34[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "{"code":200,"type":"unknown","message":"1261198850"}"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "0[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@152035eb
+DEBUG   2023-07-15 17:15:44,510 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+INFO    2023-07-15 17:15:44,513 [main] api.test.UserTest  - ******First name, Last name and Email are updated*******
+INFO    2023-07-15 17:15:44,515 [main] api.test.UserTest  - ******Delete the newly created User*******
+DEBUG   2023-07-15 17:15:44,531 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:44,531 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: DELETE /v2/user/ernesto.roberts HTTP/1.1
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.wire  -  >> "DELETE /v2/user/ernesto.roberts HTTP/1.1[\r][\n]"
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.wire  -  >> "Host: petstore.swagger.io[\r][\n]"
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.headers  - >> DELETE /v2/user/ernesto.roberts HTTP/1.1
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.headers  - >> Accept: */*
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.headers  - >> Host: petstore.swagger.io
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+DEBUG   2023-07-15 17:15:44,860 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.wire  -  << "Date: Sun, 16 Jul 2023 00:15:42 GMT[\r][\n]"
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.wire  -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:44,941 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.headers  - << Date: Sun, 16 Jul 2023 00:15:42 GMT
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.headers  - << Content-Type: application/json
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.headers  - << Transfer-Encoding: chunked
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.headers  - << Connection: keep-alive
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.headers  - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.headers  - << Server: Jetty(9.2.9.v20150224)
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2023-07-15 17:15:44,942 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json
+DEBUG   2023-07-15 17:15:44,942 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.wire  -  << "39[\r][\n]"
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.wire  -  << "{"code":200,"type":"unknown","message":"ernesto.roberts"}"
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.wire  -  << "0[\r][\n]"
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1bbef3c7
+DEBUG   2023-07-15 17:15:44,942 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+INFO    2023-07-15 17:15:44,944 [main] api.test.UserTest  - ******User is Deleted *******
+DEBUG   2023-07-15 17:15:45,482 [Finalizer] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60845<->3.86.118.162:443 closed
+DEBUG   2023-07-15 17:15:45,482 [Finalizer] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60844<->3.86.118.162:443 closed
+DEBUG   2023-07-15 17:15:46,558 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:46,559 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /v2/user HTTP/1.1
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.wire  -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.wire  -  >> "Accept: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.wire  -  >> "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.wire  -  >> "Content-Length: 154[\r][\n]"
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.wire  -  >> "Host: petstore.swagger.io[\r][\n]"
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2023-07-15 17:15:46,901 [main] org.apache.http.headers  - >> POST /v2/user HTTP/1.1
+DEBUG   2023-07-15 17:15:46,909 [main] org.apache.http.headers  - >> Accept: application/json
+DEBUG   2023-07-15 17:15:46,909 [main] org.apache.http.headers  - >> Content-Type: application/json
+DEBUG   2023-07-15 17:15:46,909 [main] org.apache.http.headers  - >> Content-Length: 154
+DEBUG   2023-07-15 17:15:46,909 [main] org.apache.http.headers  - >> Host: petstore.swagger.io
+DEBUG   2023-07-15 17:15:46,909 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2023-07-15 17:15:46,909 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+DEBUG   2023-07-15 17:15:46,909 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2023-07-15 17:15:46,909 [main] org.apache.http.wire  -  >> "{"id":123,"username":"Pawan.rai","firstName":"Pawan","lastName":"Rai","email":"test1@gmail.com","password":"Test1234","phone":"9876543210","userStatus":0}"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.wire  -  << "Date: Sun, 16 Jul 2023 00:15:44 GMT[\r][\n]"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.wire  -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.headers  - << Date: Sun, 16 Jul 2023 00:15:44 GMT
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.headers  - << Content-Type: application/json
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.headers  - << Transfer-Encoding: chunked
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.headers  - << Connection: keep-alive
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.headers  - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.headers  - << Server: Jetty(9.2.9.v20150224)
+DEBUG   2023-07-15 17:15:46,993 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2023-07-15 17:15:46,993 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json
+DEBUG   2023-07-15 17:15:46,993 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2023-07-15 17:15:47,010 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:47,010 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /v2/user HTTP/1.1
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.wire  -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.wire  -  >> "Accept: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.wire  -  >> "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.wire  -  >> "Content-Length: 167[\r][\n]"
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.wire  -  >> "Host: petstore.swagger.io[\r][\n]"
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.headers  - >> POST /v2/user HTTP/1.1
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.headers  - >> Accept: application/json
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.headers  - >> Content-Type: application/json
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.headers  - >> Content-Length: 167
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.headers  - >> Host: petstore.swagger.io
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2023-07-15 17:15:47,343 [main] org.apache.http.wire  -  >> "{"id":345,"username":"Himanshi.sharma","firstName":"Himanshi","lastName":"Sharma","email":"test2@gmail.com","password":"Test12345","phone":"9876541110","userStatus":0}"
+DEBUG   2023-07-15 17:15:47,421 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2023-07-15 17:15:47,421 [main] org.apache.http.wire  -  << "Date: Sun, 16 Jul 2023 00:15:45 GMT[\r][\n]"
+DEBUG   2023-07-15 17:15:47,421 [main] org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:47,421 [main] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.wire  -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.headers  - << Date: Sun, 16 Jul 2023 00:15:45 GMT
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.headers  - << Content-Type: application/json
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.headers  - << Transfer-Encoding: chunked
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.headers  - << Connection: keep-alive
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.headers  - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.headers  - << Server: Jetty(9.2.9.v20150224)
+DEBUG   2023-07-15 17:15:47,424 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2023-07-15 17:15:47,425 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json
+DEBUG   2023-07-15 17:15:47,425 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2023-07-15 17:15:47,436 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:47,436 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /v2/user HTTP/1.1
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.wire  -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.wire  -  >> "Accept: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.wire  -  >> "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.wire  -  >> "Content-Length: 167[\r][\n]"
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.wire  -  >> "Host: petstore.swagger.io[\r][\n]"
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.headers  - >> POST /v2/user HTTP/1.1
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.headers  - >> Accept: application/json
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.headers  - >> Content-Type: application/json
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.headers  - >> Content-Length: 167
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.headers  - >> Host: petstore.swagger.io
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+DEBUG   2023-07-15 17:15:47,760 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2023-07-15 17:15:47,767 [main] org.apache.http.wire  -  >> "{"id":145,"username":"Kanishk.Sharma","firstName":"Kanishk","lastName":"Sharma","email":"test3@gmail.com","password":"Test@123456","phone":"1234567890","userStatus":0}"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.wire  -  << "Date: Sun, 16 Jul 2023 00:15:45 GMT[\r][\n]"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.wire  -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.headers  - << Date: Sun, 16 Jul 2023 00:15:45 GMT
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.headers  - << Content-Type: application/json
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.headers  - << Transfer-Encoding: chunked
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.headers  - << Connection: keep-alive
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.headers  - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.headers  - << Server: Jetty(9.2.9.v20150224)
+DEBUG   2023-07-15 17:15:47,853 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2023-07-15 17:15:47,853 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json
+DEBUG   2023-07-15 17:15:47,853 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2023-07-15 17:15:47,996 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:47,998 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: DELETE /v2/user/Pawan.rai HTTP/1.1
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.wire  -  >> "DELETE /v2/user/Pawan.rai HTTP/1.1[\r][\n]"
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.wire  -  >> "Host: petstore.swagger.io[\r][\n]"
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.headers  - >> DELETE /v2/user/Pawan.rai HTTP/1.1
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.headers  - >> Accept: */*
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.headers  - >> Host: petstore.swagger.io
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+DEBUG   2023-07-15 17:15:48,344 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.wire  -  << "Date: Sun, 16 Jul 2023 00:15:46 GMT[\r][\n]"
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.wire  -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.headers  - << Date: Sun, 16 Jul 2023 00:15:46 GMT
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.headers  - << Content-Type: application/json
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.headers  - << Transfer-Encoding: chunked
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.headers  - << Connection: keep-alive
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.headers  - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.headers  - << Server: Jetty(9.2.9.v20150224)
+DEBUG   2023-07-15 17:15:48,432 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2023-07-15 17:15:48,432 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json
+DEBUG   2023-07-15 17:15:48,432 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2023-07-15 17:15:48,446 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:48,446 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: DELETE /v2/user/Himanshi.sharma HTTP/1.1
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.wire  -  >> "DELETE /v2/user/Himanshi.sharma HTTP/1.1[\r][\n]"
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.wire  -  >> "Host: petstore.swagger.io[\r][\n]"
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.headers  - >> DELETE /v2/user/Himanshi.sharma HTTP/1.1
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.headers  - >> Accept: */*
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.headers  - >> Host: petstore.swagger.io
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+DEBUG   2023-07-15 17:15:48,791 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.wire  -  << "Date: Sun, 16 Jul 2023 00:15:46 GMT[\r][\n]"
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.wire  -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.headers  - << Date: Sun, 16 Jul 2023 00:15:46 GMT
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.headers  - << Content-Type: application/json
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.headers  - << Transfer-Encoding: chunked
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.headers  - << Connection: keep-alive
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.headers  - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.headers  - << Server: Jetty(9.2.9.v20150224)
+DEBUG   2023-07-15 17:15:48,871 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2023-07-15 17:15:48,871 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json
+DEBUG   2023-07-15 17:15:48,871 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2023-07-15 17:15:48,884 [main] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:48,884 [main] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to petstore.swagger.io:443
+DEBUG   2023-07-15 17:15:49,219 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: DELETE /v2/user/Kanishk.Sharma HTTP/1.1
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.wire  -  >> "DELETE /v2/user/Kanishk.Sharma HTTP/1.1[\r][\n]"
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.wire  -  >> "Host: petstore.swagger.io[\r][\n]"
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.wire  -  >> "[\r][\n]"
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.headers  - >> DELETE /v2/user/Kanishk.Sharma HTTP/1.1
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.headers  - >> Accept: */*
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.headers  - >> Host: petstore.swagger.io
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.headers  - >> Connection: Keep-Alive
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+DEBUG   2023-07-15 17:15:49,220 [main] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.wire  -  << "Date: Sun, 16 Jul 2023 00:15:46 GMT[\r][\n]"
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.wire  -  << "Content-Type: application/json[\r][\n]"
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.wire  -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.wire  -  << "[\r][\n]"
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.headers  - << HTTP/1.1 200 OK
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.headers  - << Date: Sun, 16 Jul 2023 00:15:46 GMT
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.headers  - << Content-Type: application/json
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.headers  - << Transfer-Encoding: chunked
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.headers  - << Connection: keep-alive
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.headers  - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.headers  - << Server: Jetty(9.2.9.v20150224)
+DEBUG   2023-07-15 17:15:49,300 [main] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+DEBUG   2023-07-15 17:15:49,300 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json
+DEBUG   2023-07-15 17:15:49,300 [main] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG   2023-07-15 17:15:49,353 [Finalizer] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60848<->3.86.118.162:443 closed
+DEBUG   2023-07-15 17:15:49,353 [Finalizer] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60847<->3.86.118.162:443 closed
+DEBUG   2023-07-15 17:15:49,353 [Finalizer] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60846<->3.86.118.162:443 closed
+DEBUG   2023-07-15 17:15:49,353 [Finalizer] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60852<->3.86.118.162:443 closed
+DEBUG   2023-07-15 17:15:49,353 [Finalizer] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60851<->3.86.118.162:443 closed
+DEBUG   2023-07-15 17:15:49,353 [Finalizer] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:60850<->3.86.118.162:443 closed
+DEBUG   2023-07-15 17:15:49,361 [main] freemarker.cache  - Couldn't find template in cache for "spark/spark.spa.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,361 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/spark.spa_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,361 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,364 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+DEBUG   2023-07-15 17:15:49,364 [main] freemarker.cache  - Loading template for "spark/spark.spa.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+DEBUG   2023-07-15 17:15:49,427 [main] freemarker.cache  - Couldn't find template in cache for "commons/commons-variables.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,427 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-variables_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,427 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,427 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+DEBUG   2023-07-15 17:15:49,429 [main] freemarker.cache  - Loading template for "commons/commons-variables.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+DEBUG   2023-07-15 17:15:49,542 [main] freemarker.cache  - Couldn't find template in cache for "commons/commons-macros.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,549 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-macros_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,549 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,549 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+DEBUG   2023-07-15 17:15:49,549 [main] freemarker.cache  - Loading template for "commons/commons-macros.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+DEBUG   2023-07-15 17:15:49,554 [main] freemarker.cache  - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,554 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/attributes_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,554 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,557 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+DEBUG   2023-07-15 17:15:49,557 [main] freemarker.cache  - Loading template for "spark/macros/attributes.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+DEBUG   2023-07-15 17:15:49,557 [main] freemarker.cache  - Couldn't find template in cache for "spark/macros/log.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,557 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/log_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,557 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,559 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+DEBUG   2023-07-15 17:15:49,559 [main] freemarker.cache  - Loading template for "spark/macros/log.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+DEBUG   2023-07-15 17:15:49,560 [main] freemarker.cache  - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,561 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,561 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,561 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+DEBUG   2023-07-15 17:15:49,561 [main] freemarker.cache  - Loading template for "spark/macros/recurse_nodes.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+DEBUG   2023-07-15 17:15:49,561 [main] freemarker.cache  - "spark/macros/log.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2023-07-15 17:15:49,561 [main] freemarker.cache  - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,561 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,561 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,561 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+DEBUG   2023-07-15 17:15:49,561 [main] freemarker.cache  - Loading template for "spark/macros/attr-common.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+DEBUG   2023-07-15 17:15:49,570 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/head.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,571 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/head_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,571 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,572 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+DEBUG   2023-07-15 17:15:49,572 [main] freemarker.cache  - Loading template for "spark/partials/head.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+DEBUG   2023-07-15 17:15:49,574 [main] freemarker.cache  - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,574 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,574 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,574 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+DEBUG   2023-07-15 17:15:49,574 [main] freemarker.cache  - Loading template for "commons/commons-inject-css.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+DEBUG   2023-07-15 17:15:49,574 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,574 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/navbar_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,574 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,574 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+DEBUG   2023-07-15 17:15:49,574 [main] freemarker.cache  - Loading template for "spark/partials/navbar.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+DEBUG   2023-07-15 17:15:49,581 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,581 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,581 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,581 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+DEBUG   2023-07-15 17:15:49,581 [main] freemarker.cache  - Loading template for "spark/partials/sidenav.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+DEBUG   2023-07-15 17:15:49,601 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/test.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,601 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/test_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,601 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,601 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+DEBUG   2023-07-15 17:15:49,601 [main] freemarker.cache  - Loading template for "spark/partials/test.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+DEBUG   2023-07-15 17:15:49,615 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,617 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,617 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,617 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+DEBUG   2023-07-15 17:15:49,617 [main] freemarker.cache  - Loading template for "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+DEBUG   2023-07-15 17:15:49,620 [main] freemarker.cache  - "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2023-07-15 17:15:49,629 [main] freemarker.cache  - "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2023-07-15 17:15:49,631 [main] freemarker.cache  - "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2023-07-15 17:15:49,633 [main] freemarker.cache  - "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2023-07-15 17:15:49,633 [main] freemarker.cache  - "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2023-07-15 17:15:49,633 [main] freemarker.cache  - "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2023-07-15 17:15:49,637 [main] freemarker.cache  - "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2023-07-15 17:15:49,640 [main] freemarker.cache  - "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - "spark/partials/standard-content.ftl"("en_CA", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/exception.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/exception_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - Loading template for "spark/partials/exception.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/category.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/category_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - Loading template for "spark/partials/category.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/device.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/device_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - Loading template for "spark/partials/device.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/author.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/author_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+DEBUG   2023-07-15 17:15:49,641 [main] freemarker.cache  - Loading template for "spark/partials/author.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+DEBUG   2023-07-15 17:15:49,649 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/log.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,650 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/log_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,650 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,650 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+DEBUG   2023-07-15 17:15:49,650 [main] freemarker.cache  - Loading template for "spark/partials/log.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+DEBUG   2023-07-15 17:15:49,651 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,651 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,651 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,651 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+DEBUG   2023-07-15 17:15:49,651 [main] freemarker.cache  - Loading template for "spark/partials/dashboard.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+DEBUG   2023-07-15 17:15:49,681 [main] freemarker.cache  - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,681 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/scripts_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,681 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,681 [main] freemarker.cache  - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+DEBUG   2023-07-15 17:15:49,681 [main] freemarker.cache  - Loading template for "spark/partials/scripts.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+DEBUG   2023-07-15 17:15:49,681 [main] freemarker.cache  - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_CA", UTF-8, parsed); will try to load it.
+DEBUG   2023-07-15 17:15:49,681 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_CA.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,681 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+DEBUG   2023-07-15 17:15:49,681 [main] freemarker.cache  - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+DEBUG   2023-07-15 17:15:49,681 [main] freemarker.cache  - Loading template for "commons/commons-inject-js.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/12363/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
